@@ -51,7 +51,7 @@ bot.onText(/\/apostar (.+)/, (msg, match) => {
   const resultado = args[1].toLowerCase();
   const cantidad = parseInt(args[2]);
   const partidos = {
-    1: { nombre: 'Real Madrid vs Barcelona', opciones: { madrid: 1.85, empate: 3.20, barcelona: 2.10 } },
+    1: { nombre: 'Aston Villa vs Liverpool', opciones: { ambosmarcan : 1.60 } },
     2: { nombre: 'Man City vs Arsenal', opciones: { city: 1.60, empate: 3.50, arsenal: 2.80 } },
     3: { nombre: 'PSG vs Bayern', opciones: { psg: 2.20, empate: 3.10, bayern: 1.75 } },
     4: { nombre: 'Liverpool vs Chelsea', opciones: { liverpool: 1.90, empate: 3.30, chelsea: 2.50 } },
