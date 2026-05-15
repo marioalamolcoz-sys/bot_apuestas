@@ -32,7 +32,7 @@ bot.onText(/\/help/, (msg) => {
 bot.onText(/\/partidos/, (msg) => {
   bot.sendMessage(msg.chat.id,
     '⚽ *Partidos disponibles:*\n\n' +
-    '1️⃣ Real Madrid vs Barcelona\n   madrid: x1.85 | empate: x3.20 | barcelona: x2.10\n\n' +
+    '1️⃣ Aston villa - Liverpool \n  ambos marcan / 1.60 \n\n' +
     '2️⃣ Man City vs Arsenal\n   city: x1.60 | empate: x3.50 | arsenal: x2.80\n\n' +
     '3️⃣ PSG vs Bayern\n   psg: x2.20 | empate: x3.10 | bayern: x1.75\n\n' +
     '4️⃣ Liverpool vs Chelsea\n   liverpool: x1.90 | empate: x3.30 | chelsea: x2.50\n\n' +
